@@ -1,0 +1,33 @@
+:root {
+  /* background */
+  --c-dark: #191c26;
+  --c-light: #ffffff;
+  --c-grey: #f7f7f7;
+  --c-accent: #ff6c00;
+
+  /* text */
+  --txt-dark: #303030;
+  --txt-grey: #555555;
+  --txt-middle-grey: rgba(157, 164, 189, 0.6);
+  --txt-grey-light: #9da4bd;
+  --txt-accent: var(--c-accent);
+  --txt-light: var(--c-light);
+
+  /* font */
+  --font-main: "Open Sans", sans-serif;
+  --font-headers: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+}
+h2 {
+  font-family: var(--font-headers);
+}
+
+/* ШАПКА САЙТА */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
